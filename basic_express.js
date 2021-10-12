@@ -1,4 +1,4 @@
-//main2 
+//main2
 
 // Imports
 var express = require('express');
@@ -102,7 +102,7 @@ app.post("/feedback",function(req, res){
 
   }else if (req.body.name){
     res.render('feedback', {
-      yell: "YOU FORGOT THE ADJECTIVE silly monkey" //if you forgotjust the adjective
+      yell: "YOU FORGOT THE ADJECTIVE silly monkey" //if you forgot just the adjective
     })
   } else {
     res.render('feedback', {
